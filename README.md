@@ -1,3 +1,5 @@
+# CodeLens
+
 Real-Time Collaborative Code Review Platform with AI-Powered Insights.
 A modern, AI-powered code review platform that enables teams to review code collaboratively in real-time with intelligent insights and suggestions powered by Gemini AI.
 
