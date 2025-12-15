@@ -45,32 +45,20 @@ export default function Features() {
             <div className="flex items-center space-x-4">
               {user ? (
                 <>
-                  <button
-                    onClick={() => navigate('/dashboard')}
-                    className="text-gray-600 hover:text-gray-900 transition font-medium"
-                  >
-                    Dashboard
+                  <button onClick={() => navigate('/dashboard')} className="text-gray-600 hover:text-gray-900 transition font-medium">
+                  Dashboard
                   </button>
-                  <button
-                    onClick={handleSignOut}
-                    className="flex items-center space-x-2 px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-100 rounded-lg transition"
-                  >
-                    <LogOut className="w-4 h-4" />
+                  <button onClick={handleSignOut} className="flex items-center space-x-2 px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-100 rounded-lg transition">
+                    <LogOut className="w-4 h-4"/>
                     <span>Sign Out</span>
                   </button>
                 </>
               ) : (
                 <>
-                  <button
-                    onClick={() => navigate('/login')}
-                    className="text-gray-600 hover:text-gray-900 transition font-medium"
-                  >
+                  <button onClick={() => navigate('/login')} className="text-gray-600 hover:text-gray-900 transition font-medium">
                     Sign In
                   </button>
-                  <button
-                    onClick={() => navigate('/signup')}
-                    className="px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition font-medium"
-                  >
+                  <button onClick={() => navigate('/signup')} className="px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition font-medium">
                     Get Started
                   </button>
                 </>
@@ -97,7 +85,7 @@ export default function Features() {
             {/* Feature 1 */}
             <div className="bg-white rounded-lg p-8 border border-gray-200 hover:border-indigo-300 transition">
               <div className="w-12 h-12 bg-indigo-100 rounded-lg flex items-center justify-center mb-4">
-                <Users className="w-6 h-6 text-indigo-600" />
+                <Users className="w-6 h-6 text-indigo-600"/>
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-2">
                 Real-Time Collaboration
@@ -111,7 +99,7 @@ export default function Features() {
             {/* Feature 2 */}
             <div className="bg-white rounded-lg p-8 border border-gray-200 hover:border-indigo-300 transition">
               <div className="w-12 h-12 bg-indigo-100 rounded-lg flex items-center justify-center mb-4">
-                <Shield className="w-6 h-6 text-indigo-600" />
+                <Shield className="w-6 h-6 text-indigo-600"/>
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-2">
                 AI-Powered Security
@@ -125,7 +113,7 @@ export default function Features() {
             {/* Feature 3 */}
             <div className="bg-white rounded-lg p-8 border border-gray-200 hover:border-indigo-300 transition">
               <div className="w-12 h-12 bg-indigo-100 rounded-lg flex items-center justify-center mb-4">
-                <Zap className="w-6 h-6 text-indigo-600" />
+                <Zap className="w-6 h-6 text-indigo-600"/>
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-2">
                 Lightning Fast
@@ -139,7 +127,7 @@ export default function Features() {
             {/* Feature 4 */}
             <div className="bg-white rounded-lg p-8 border border-gray-200 hover:border-indigo-300 transition">
               <div className="w-12 h-12 bg-indigo-100 rounded-lg flex items-center justify-center mb-4">
-                <MessageSquare className="w-6 h-6 text-indigo-600" />
+                <MessageSquare className="w-6 h-6 text-indigo-600"/>
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-2">
                 Smart Comments
@@ -153,7 +141,7 @@ export default function Features() {
             {/* Feature 5 */}
             <div className="bg-white rounded-lg p-8 border border-gray-200 hover:border-indigo-300 transition">
               <div className="w-12 h-12 bg-indigo-100 rounded-lg flex items-center justify-center mb-4">
-                <Code2 className="w-6 h-6 text-indigo-600" />
+                <Code2 className="w-6 h-6 text-indigo-600"/>
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-2">
                 Multi-Language Support
@@ -167,7 +155,7 @@ export default function Features() {
             {/* Feature 6 */}
             <div className="bg-white rounded-lg p-8 border border-gray-200 hover:border-indigo-300 transition">
               <div className="w-12 h-12 bg-indigo-100 rounded-lg flex items-center justify-center mb-4">
-                <BarChart3 className="w-6 h-6 text-indigo-600" />
+                <BarChart3 className="w-6 h-6 text-indigo-600"/>
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-2">
                 Analytics Dashboard
@@ -190,10 +178,7 @@ export default function Features() {
           <p className="text-xl text-gray-600 mb-8">
             Join teams who are shipping better code, faster.
           </p>
-          <button
-            onClick={() => navigate('/signup')}
-            className="px-8 py-4 bg-indigo-600 text-white rounded-lg font-semibold text-lg hover:bg-indigo-700 transition"
-          >
+          <button onClick={() => navigate('/signup')} className="px-8 py-4 bg-indigo-600 text-white rounded-lg font-semibold text-lg hover:bg-indigo-700 transition">
             Get Started Free
           </button>
         </div>
